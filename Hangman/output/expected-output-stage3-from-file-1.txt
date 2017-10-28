@@ -1,0 +1,144 @@
+CS 106A Hangman!
+I will think of a random word.
+You'll try to guess its letters.
+Every time you guess a letter
+that isn't in my word, a new body
+part of the hanging man appears.
+Guess correctly to avoid the gallows!
+
+Dictionary filename? dict.txt
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ----
+Your guesses: 
+Guesses left: 8
+Your guess? t
+Incorrect.
+   +------------+          _________
+   |            |         /         \
+   |         _______      | Why me? |
+   |        / o   o \   / \_________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ----
+Your guesses: T
+Guesses left: 7
+Your guess? s
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ----
+Your guesses: TS
+Guesses left: 6
+Your guess? a
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: TSA
+Guesses left: 6
+Your guess? v
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -AVA
+Your guesses: TSAV
+Guesses left: 6
+Your guess? q
+Incorrect.
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -AVA
+Your guesses: TSAVQ
+Guesses left: 5
+Your guess? T
+You already guessed that letter.
+Your guess? j
+Correct!
+You win! My word was "JAVA".

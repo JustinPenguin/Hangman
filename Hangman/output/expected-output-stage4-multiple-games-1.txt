@@ -1,0 +1,1170 @@
+CS 106A Hangman!
+I will think of a random word.
+You'll try to guess its letters.
+Every time you guess a letter
+that isn't in my word, a new body
+part of the hanging man appears.
+Guess correctly to avoid the gallows!
+
+Dictionary filename? dict.txt
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : --------
+Your guesses: 
+Guesses left: 8
+Your guess? a
+Incorrect.
+   +------------+          _________
+   |            |         /         \
+   |         _______      | Why me? |
+   |        / o   o \   / \_________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : --------
+Your guesses: A
+Guesses left: 7
+Your guess? b
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : --------
+Your guesses: AB
+Guesses left: 6
+Your guess? c
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : C-------
+Your guesses: ABC
+Guesses left: 6
+Your guess? d
+Incorrect.
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : C-------
+Your guesses: ABCD
+Guesses left: 5
+Your guess? e
+Correct!
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : C-----E-
+Your guesses: ABCDE
+Guesses left: 5
+Your guess? i
+Incorrect.
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : C-----E-
+Your guesses: ABCDEI
+Guesses left: 4
+Your guess? o
+Correct!
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : CO----E-
+Your guesses: ABCDEIO
+Guesses left: 4
+Your guess? u
+Correct!
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : CO--U-E-
+Your guesses: ABCDEIOU
+Guesses left: 4
+Your guess? T
+Correct!
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : CO--UTE-
+Your guesses: ABCDEIOUT
+Guesses left: 4
+Your guess? l
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : CO--UTE-
+Your guesses: ABCDEIOUTL
+Guesses left: 3
+Your guess? v
+Incorrect.
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Hurry up!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |
+   |
+---+---
+#######
+Secret word : CO--UTE-
+Your guesses: ABCDEIOUTLV
+Guesses left: 2
+Your guess? Y
+Incorrect.
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Help me!!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/
+   |
+---+---
+#######
+Secret word : CO--UTE-
+Your guesses: ABCDEIOUTLVY
+Guesses left: 1
+Your guess? a
+You already guessed that letter.
+Your guess? A
+You already guessed that letter.
+Your guess? E
+You already guessed that letter.
+Your guess? i
+You already guessed that letter.
+Your guess? O
+You already guessed that letter.
+Your guess? u
+You already guessed that letter.
+Your guess? r
+Correct!
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Help me!!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/
+   |
+---+---
+#######
+Secret word : CO--UTER
+Your guesses: ABCDEIOUTLVYR
+Guesses left: 1
+Your guess? e
+You already guessed that letter.
+Your guess? what is wrong
+Type a single letter from A-Z.
+Your guess? oh ok
+Type a single letter from A-Z.
+Your guess? m
+Correct!
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Help me!!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/
+   |
+---+---
+#######
+Secret word : COM-UTER
+Your guesses: ABCDEIOUTLVYRM
+Guesses left: 1
+Your guess? P
+Correct!
+You win! My word was "COMPUTER".
+Play again (Y/N)? D
+Illegal boolean format
+Play again (Y/N)? t
+Illegal boolean format
+Play again (Y/N)? c
+Illegal boolean format
+Play again (Y/N)? f
+Illegal boolean format
+Play again (Y/N)? X
+Illegal boolean format
+Play again (Y/N)? y
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ----
+Your guesses: 
+Guesses left: 8
+Your guess? a
+Correct!
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: A
+Guesses left: 8
+Your guess? e
+Incorrect.
+   +------------+          _________
+   |            |         /         \
+   |         _______      | Why me? |
+   |        / o   o \   / \_________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AE
+Guesses left: 7
+Your guess? i
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AEI
+Guesses left: 6
+Your guess? o
+Incorrect.
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AEIO
+Guesses left: 5
+Your guess? r
+Incorrect.
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AEIOR
+Guesses left: 4
+Your guess? s
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AEIORS
+Guesses left: 3
+Your guess? t
+Incorrect.
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Hurry up!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AEIORST
+Guesses left: 2
+Your guess? m
+Incorrect.
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Help me!!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/
+   |
+---+---
+#######
+Secret word : -A-A
+Your guesses: AEIORSTM
+Guesses left: 1
+Your guess? y
+Incorrect.
+   +------------+          _________________
+   |            |         /                 \
+   |         _______      | AUGH, I'M DEAD. |
+   |        / X   X \   / \_________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/     \__
+   |
+---+---
+#######
+You lose! My word was "JAVA".
+Play again (Y/N)? a
+Illegal boolean format
+Play again (Y/N)? b
+Illegal boolean format
+Play again (Y/N)? c
+Illegal boolean format
+Play again (Y/N)? d
+Illegal boolean format
+Play again (Y/N)? e
+Illegal boolean format
+Play again (Y/N)? f
+Illegal boolean format
+Play again (Y/N)? i
+Illegal boolean format
+Play again (Y/N)? o
+Illegal boolean format
+Play again (Y/N)? u
+Illegal boolean format
+Play again (Y/N)? m
+Illegal boolean format
+Play again (Y/N)? r
+Illegal boolean format
+Play again (Y/N)? y
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ------
+Your guesses: 
+Guesses left: 8
+Your guess? a
+Incorrect.
+   +------------+          _________
+   |            |         /         \
+   |         _______      | Why me? |
+   |        / o   o \   / \_________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ------
+Your guesses: A
+Guesses left: 7
+Your guess? b
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ------
+Your guesses: AB
+Guesses left: 6
+Your guess? c
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ---C--
+Your guesses: ABC
+Guesses left: 6
+Your guess? d
+Incorrect.
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ---C--
+Your guesses: ABCD
+Guesses left: 5
+Your guess? e
+Incorrect.
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ---C--
+Your guesses: ABCDE
+Guesses left: 4
+Your guess? f
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : ---C--
+Your guesses: ABCDEF
+Guesses left: 3
+Your guess? T
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : T--C--
+Your guesses: ABCDEFT
+Guesses left: 3
+Your guess? y
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : T--C-Y
+Your guesses: ABCDEFTY
+Guesses left: 3
+Your guess? k
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : T--CKY
+Your guesses: ABCDEFTYK
+Guesses left: 3
+Your guess? i
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : T-ICKY
+Your guesses: ABCDEFTYKI
+Guesses left: 3
+Your guess? R
+Correct!
+You win! My word was "TRICKY".
+Play again (Y/N)? g
+Illegal boolean format
+Play again (Y/N)? h
+Illegal boolean format
+Play again (Y/N)? i
+Illegal boolean format
+Play again (Y/N)? j
+Illegal boolean format
+Play again (Y/N)? k
+Illegal boolean format
+Play again (Y/N)? Y
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : ----------
+Your guesses: 
+Guesses left: 8
+Your guess? a
+Correct!
+   +------------+
+   |            |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -----A----
+Your guesses: A
+Guesses left: 8
+Your guess? b
+Incorrect.
+   +------------+          _________
+   |            |         /         \
+   |         _______      | Why me? |
+   |        / o   o \   / \_________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -----A----
+Your guesses: AB
+Guesses left: 7
+Your guess? c
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -----A----
+Your guesses: ABC
+Guesses left: 6
+Your guess? e
+Correct!
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | I'm scared! |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |            |
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -----A--E-
+Your guesses: ABCE
+Guesses left: 6
+Your guess? s
+Incorrect.
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -----A--E-
+Your guesses: ABCES
+Guesses left: 5
+Your guess? r
+Correct!
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -R--RA--ER
+Your guesses: ABCESR
+Guesses left: 5
+Your guess? g
+Correct!
+   +------------+          __________________
+   |            |         /                  \
+   |         _______      | I need a "hand"! |
+   |        / o   o \   / \__________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -R-GRA--ER
+Your guesses: ABCESRG
+Guesses left: 5
+Your guess? Y
+Incorrect.
+   +------------+          ______________
+   |            |         /              \
+   |         _______      | Half gone... |
+   |        / o   o \   / \______________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |
+   |
+   |
+   |
+---+---
+#######
+Secret word : -R-GRA--ER
+Your guesses: ABCESRGY
+Guesses left: 4
+Your guess? a
+You already guessed that letter.
+Your guess? b
+You already guessed that letter.
+Your guess? c
+You already guessed that letter.
+Your guess? d
+Incorrect.
+   +------------+          _____________
+   |            |         /             \
+   |         _______      | Not good... |
+   |        / o   o \   / \_____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           /
+   |          /
+   |
+   |
+---+---
+#######
+Secret word : -R-GRA--ER
+Your guesses: ABCESRGYD
+Guesses left: 3
+Your guess? e
+You already guessed that letter.
+Your guess? f
+Incorrect.
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Hurry up!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |
+   |
+---+---
+#######
+Secret word : -R-GRA--ER
+Your guesses: ABCESRGYDF
+Guesses left: 2
+Your guess? g
+You already guessed that letter.
+Your guess? h
+Incorrect.
+   +------------+          ____________
+   |            |         /            \
+   |         _______      | Help me!!! |
+   |        / o   o \   / \____________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/
+   |
+---+---
+#######
+Secret word : -R-GRA--ER
+Your guesses: ABCESRGYDFH
+Guesses left: 1
+Your guess? i
+Incorrect.
+   +------------+          _________________
+   |            |         /                 \
+   |         _______      | AUGH, I'M DEAD. |
+   |        / X   X \   / \_________________/
+   |        |   .   |  /
+   |        |  ___  |
+   |        \_______/
+   |            |
+   |      \\----+----//
+   |            |
+   |            |
+   |           / \
+   |          /   \
+   |       __/     \__
+   |
+---+---
+#######
+You lose! My word was "PROGRAMMER".
+Play again (Y/N)? j
+Illegal boolean format
+Play again (Y/N)? k
+Illegal boolean format
+Play again (Y/N)? l
+Illegal boolean format
+Play again (Y/N)? m
+Illegal boolean format
+Play again (Y/N)? n
+
+Overall statistics:
+Games played: 4
+Games won:    2
+Win percent:  50.0%
+Best game:    3 guess(es) remaining
+Thanks for playing!
